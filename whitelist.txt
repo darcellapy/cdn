@@ -1,0 +1,5 @@
+<white-domain>https://wup.ecliipse.app/
+<gold-domain>https://wup.ecliipse.app/
+<white-title-ID>000500301001310A
+<top-page>https://wup.ecliipse.app/
+<white-acr>
