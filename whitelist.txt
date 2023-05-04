@@ -1,5 +1,5 @@
-<white-domain>https://wup.ecliipse.app/
-<gold-domain>https://wup.ecliipse.app/
+<white-domain>https://davidsosa2022.github.io/Nintendo-TVii-Web/
+<gold-domain>https://davidsosa2022.github.io/Nintendo-TVii-Web/
 <white-title-ID>000500301001310A
-<top-page>https://wup.ecliipse.app/
+<top-page>https://davidsosa2022.github.io/Nintendo-TVii-Web/
 <white-acr>a
