@@ -1,5 +1,5 @@
 #ur0 is default
-url0:https://wup.ecliipse.app
+url0:https://davidsosa2022.github.io/Nintendo-TVii-Web/
 
 # on/off debug print of client
 CallbackDebugPrint:0
