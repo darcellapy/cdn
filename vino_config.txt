@@ -65,8 +65,8 @@ EnableEventLock:1
 # 1:File    (vino uses white-list on file, path is written at 'WhiteList_Path')
 # 2:Network (vino uses white-list on network, path is written at 'WhiteList_Path'. in this mode, white-list is downloaded with a paticular ssl certification for client and server.)
 # 3:Release (vino uses the final environment by each region.)
-WhiteList_Use:2
-WhiteList_Path:https://cdn.ecliipse.app/whitelist.txt
+WhiteList_Use:0
+#WhiteList_Path:https://cdn.ecliipse.app/whitelist.txt
 
 # Allow 'file:' and 'http:' scheme. Finally, it is set to 'Not Allow'
 # 0:Not Allow
