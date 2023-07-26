@@ -1,0 +1,30 @@
+vino.memo_open(true); // Open Miiverse draw interface
+vino.memo_isFinish(); // true/false if the Miiverse draw interface is finished
+vino.memo_getImagePng(); // Returns the base64 PNG of the last finished memo
+vino.memo_getImageTgaRaw(); // Returns the base64 TGA of the last finished memo
+vino.memo_getImageTgaCompressed(); // Returns the compressed TGA of the last finished memo
+
+vino.ng_checkText("hello world"); // true/false, checks for blacklisted words in multi-word string
+vino.ng_checkWord("hello"); // true/false, checks if word is blacklisted
+
+vino.fp_getFriendName(PID); // Name of friend Mii
+vino.fp_getFriendList(); // List of friend PIDs for current user
+
+const activeUserSlot = vino.act_getCurrentSlotNo(); // The slot for the active user
+vino.act_getName(activeUserSlot); // RedDucks
+vino.act_getMiiImage(activeUserSlot); // PNG image blob
+vino.act_getPid(activeUserSlot); // 1750087940
+vino.act_getAgeDivision(activeUserSlot); // Age division
+vino.act_getMiiData(activeUserSlot); // Raw Mii data
+vino.act_getNum(); // Number of accounts stored on console
+vino.act_getMiiImageEx(unknown); // Unknown, this always returns "undefined" with or without a slot
+
+vino.loading_setIconAppear(true); // Sets the loading icon the show, but is not positioned correctly
+
+vino.jumpToTitle('TID', true); // Jumps to title
+vino.jumpToMiiverse(true); // Jumps to Miiverse? (this opens a dialog asking to jump to Miiverse, but it never actually makes the jump)
+vino.jumpToMiiversePostId('123456789', true); // Jump to post? (this opens a dialog asking to jump to Miiverse, but it never actually makes the jump)
+vino.jumpToEShop('TID', true);// Opens eShop page for title? (this opens a dialog asking to jump to the eShop, but it never actually makes the jump)
+
+vino.runOliveErrorDialog(1234); // Throws a 115-XXXX (Miiverse) error
+vino.runErrorDialog(123); // Throws a 119-9XXX error (anything above 999 will always throw 119-0999)
