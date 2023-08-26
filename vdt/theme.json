@@ -1,0 +1,76 @@
+{
+  "name": "le hacker's epik theme",
+  "description": ":)",
+  "authors": [
+    {
+      "name": "@thereallehacker"
+    }
+  ],
+  "semanticColors": {
+    "HEADER_PRIMARY": ["#72d590"],
+    "HEADER_SECONDARY": ["#72d590"],
+    "TEXT_NORMAL": ["#e8fff0"],
+    "TEXT_MUTED": ["#5E5E5E"],
+    "TEXT_LINK": ["#8eeeb0"],
+    "INTERACTIVE_NORMAL": ["#99c59f"],
+    "INTERACTIVE_HOVER": ["#88bc9d"],
+    "INTERACTIVE_ACTIVE": ["#c5fdcf"],
+    "INTERACTIVE_MUTED": ["#516054"],
+    "BACKGROUND_PRIMARY": ["#0A0A0A"],
+    "BACKGROUND_SECONDARY": ["#222222"],
+    "BACKGROUND_SECONDARY_ALT": ["#222222"],
+    "BACKGROUND_TERTIARY": ["#0A0A0A"],
+    "BACKGROUND_ACCENT": ["#4a7052"],
+    "BACKGROUND_FLOATING": ["#222222"],
+    "BACKGROUND_MOBILE_PRIMARY": ["#222222"],
+    "BACKGROUND_MOBILE_SECONDARY": ["#222222"],
+    "BACKGROUND_NESTED_FLOATING": ["#0A0A0A"],
+
+    "BACKGROUND_MESSAGE_HOVER": ["#0A0A0A"],
+    "BACKGROUND_MODIFIER_HOVER": ["#0A0A0A"],
+    "BACKGROUND_MODIFIER_ACTIVE": ["#427d4f"],
+    "BACKGROUND_MODIFIER_SELECTED": ["#427d4f"],
+    "BACKGROUND_MODIFIER_ACCENT": ["#484848"],
+    "SCROLLBAR_THIN_THUMB": ["#293b26"],
+    "SCROLLBAR_THIN_TRACK": ["transparent"],
+    "SCROLLBAR_AUTO_THUMB": ["#b3dac3"],
+    "SCROLLBAR_AUTO_TRACK": ["#b3dac3"],
+    "CHANNELTEXTAREA_BACKGROUND": ["#242424"],
+    "CHANNELS_DEFAULT": ["#769e7f"],
+    "TEXT_DANGER": ["#FC0E61"],
+    "KEYBOARD": ["#0A0A0A"],
+    "CHANNEL_ICON": ["#BEB3C6"],
+    "CHAT_BACKGROUND": ["#0A0A0A"],
+    "SPOILER_HIDDEN_BACKGROUND": ["#4B4B4B"],
+    "SPOILER_REVEALED_BACKGROUND": ["#5E5E5E"]
+  },
+  "rawColors": {
+    "PRIMARY_100": "#03fc39",
+    "PRIMARY_200": "#53bd65",
+    "PRIMARY_300": "#41e862",
+    "PRIMARY_360": "#72f081",
+    "PRIMARY_400": "#14ee47",
+    "PRIMARY_500": "#3a7042",
+    "PRIMARY_600": "#0A0A0A",
+    "PRIMARY_630": "#2F2F2F",
+    "PRIMARY_660": "#2F2F2F",
+    "PRIMARY_700": "#0A0A0A",
+    "PRIMARY_800": "#0A0A0A",
+
+    "BRAND_260": "#61956b",
+    "BRAND_360": "#96d09f",
+    "BRAND_500": "#61956d",
+    "BRAND_560": "#96d0a5",
+    "WHITE_500": "#c4ffd1",
+    "YELLOW_300": "#69e075",
+    "GREEN_360": "#69e087",
+    "RED_400": "#FC0E61"
+  },
+  "spec": 2,
+  "background": {
+    "blur": 0,
+    "url": "https://raw.githubusercontent.com/darcellapy/cdn/main/vdt/theme_BG/background.jpg",
+    "alpha": 0.9,
+    "color": "#0A0A0A"
+  }
+}
